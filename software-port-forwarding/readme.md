@@ -16,15 +16,23 @@
 
 ### Routable public IP
 
-Πολύ πιθανόν, ο πάροχος του internet έχει κάνει για λόγους ασφαλείας το δίκτυό σας CG-NAT.
+:zap: Πολύ πιθανόν, ο πάροχος του internet έχει κάνει για λόγους ασφαλείας το δίκτυό σας CG-NAT.
 Αυτό εμποδίζει το miner να δεχτεί μηνύματα μέσω ιντερνετ.
 Επικοινωνήστε με τον πάροχό σας να απενεργοποιήσει το CG-NAT, ώστε να έχετε ένα routable public IP.
 Αυτό το ζήτημα το έχουν αντιμετωπίσει όχι μόνο για mining αλλά και όσοι έχουν κάμερες στο σπίτι που θέλουν να βλέπουν απομακρυσμένα, ή και σε gaming consoles.
 
-## Port Forwarding
+### Στοιχεία Miner
+
+Χρειάζεται να γνωρίζετε:
+
+- Τη MAC address του miner σας, που θα χρειαστεί για να πάρει stati IP στο LAN
+- Την IP που παίρνει ο miner στο LAΝ όταν τον συνδέσετε με ethernet στο δίκτυο.
+
+## Port Forwarding & LAN Reserve IP
+
+> Σημείωση: ΔΕΝ χρειάζεται static IP στο public network! Ο miner πρέπει να έχει reserve IP στο LAN, στο δίκτυο που δημιουργείται στο σπίτι από το router του παρόχου.
 
 - [Cosmote Speedport Plus](cosmote/speedport-plus-port-forwarding.md)
-
 
 ## Επιβεβαίωση
 
