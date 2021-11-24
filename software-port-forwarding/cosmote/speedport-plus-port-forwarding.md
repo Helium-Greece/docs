@@ -22,11 +22,24 @@
 - LAN Host IP Address: η IP του miner στο εσωτερικό δίκτυο
 - LAN Host Start Port: 44158
 - LAN Host End Port: 44158
-- Κάνε κλίκ στο save
+- Κάνε κλίκ στο Save
+
 > Μετά την αποθήκευση, η εγγραφή θα εμφανιστεί σε πινακάκι κάτω από τη φόρμα, οπότε αν κάνεις αλλαγές, σιγουρεψε ότι δεν έχεις κάνει διπλοεγγραφή. Μπορείς εύκολα να επεξεργαστείς ή να διαγράψεις υπάρχουσες εγγραφές.
 ![Cosmote Speedport Plus Port Forwarding Form](cosmote-speedport-plus-port-forwarding-form.png)
 
 [Back to Software Port Forwarding](../readme.md)
+
+## Οδηγίες για LAN Reserve IP
+
+- Κάνε κλίκ στο Home network
+- Κάνε κλίκ στο Home network (LAN)
+- Κάνε κλίκ στο DHCP. Ανοίγει μία φόρμα. Και το DHCP είναι on.
+- Στο reserved IP Address, κάνε κλίκ στο manually add device
+- Γράψε το MAC Address του Miner
+- Γράψε την IP του miner
+- Κάνε κλίκ στο Save
+
+![Cosmote Speedport Plus Port Reserve IP](cosmote-speedport-plus-reserve-ip.png)
 
 ## Useful Links
 
