@@ -33,6 +33,7 @@
 > Σημείωση: ΔΕΝ χρειάζεται static IP στο public network! Ο miner πρέπει να έχει reserve IP στο LAN, στο δίκτυο που δημιουργείται στο σπίτι από το router του παρόχου.
 
 - [Cosmote Speedport Plus](cosmote/speedport-plus-port-forwarding.md)
+- [Cosmote Speedport Entry 2i](cosmote/speedport-entry-2i-port-forwarding.md)
 
 ## Επιβεβαίωση
 
